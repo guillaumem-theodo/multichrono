@@ -1,0 +1,91 @@
+.App {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-evenly;
+  color: black;
+}
+
+.App-header {
+  align-items: flex-start;
+}
+
+.App-block {
+  background-color: bisque;
+  margin-top: 25px;
+  min-width: 600px;
+  width: 600px;
+  max-width: 600px;
+  border: 4px dotted black;
+  border-radius: 20px;
+
+}
+
+.App-bloc-title{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-left: 10px;
+  color: red;
+  font-size: larger;
+  font-weight: bolder;
+  text-decoration: underline;
+}
+.App-bloc-legend{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-left: 10px;
+  color: blue;
+}
+.Stopwatch-key {
+  border: 1px solid black;
+  min-width: 20px;
+  width: 20px;
+  max-width: 20px;
+  text-align: center;
+}
+.Stopwatch-key-active {
+  border: 1px solid black;
+  min-width: 20px;
+  width: 20px;
+  max-width: 20px;
+  text-align: center;
+  background: green;
+  color: white;
+}
+
+.Stopwatch-active {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: green;
+  font-weight: bolder;
+
+}
+
+.Stopwatch-inactive {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: black;
+}
+
+.Stopwatch-timer {
+  min-width: 100px;
+  max-width: 100px;
+  width: 100px;
+}
+

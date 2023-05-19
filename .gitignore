@@ -1,0 +1,21 @@
+# local ssl
+**/ssl/*
+
+!/**/.gitkeep
+
+.idea/*
+*/.idea/*
+node_modules
+
+*.iml
+
+.DS_Store
+.git-crypt.key
+.env
+.npmrc
+.eslintcache
+.envrc
+.kubeconfig
+.aws/credentials
+target
+**/target
